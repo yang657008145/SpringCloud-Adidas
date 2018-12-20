@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adidas-announcement" />
+        <module name="adidas-api-announcement" />
+        <module name="adidas-api-menber" />
+        <module name="adidas-prmo" />
+        <module name="adidas-user" />
+        <module name="common" />
+        <module name="eruka-server" />
+        <module name="eureka-zuul-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adidas-announcement" target="1.8" />
+      <module name="adidas-api" target="1.8" />
+      <module name="adidas-api-announcement" target="1.8" />
+      <module name="adidas-api-menber" target="1.8" />
+      <module name="adidas-prmo" target="1.8" />
+      <module name="adidas-user" target="1.8" />
+      <module name="adidas-uua" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="eruka-server" target="1.8" />
+      <module name="eureka-zuul-client" target="1.8" />
+      <module name="yrzAdidas-prmo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

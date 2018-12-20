@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/adidas-announcement/adidas-announcement.iml" filepath="$PROJECT_DIR$/adidas-announcement/adidas-announcement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adidas-api/adidas-api.iml" filepath="$PROJECT_DIR$/adidas-api/adidas-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adidas-api/adidas-api-announcement/adidas-api-announcement.iml" filepath="$PROJECT_DIR$/adidas-api/adidas-api-announcement/adidas-api-announcement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adidas-api/adidas-api-menber/adidas-api-menber.iml" filepath="$PROJECT_DIR$/adidas-api/adidas-api-menber/adidas-api-menber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adidas-menber/adidas-prmo.iml" filepath="$PROJECT_DIR$/adidas-menber/adidas-prmo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adidas-user/adidas-user.iml" filepath="$PROJECT_DIR$/adidas-user/adidas-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eruka-server/eruka-server.iml" filepath="$PROJECT_DIR$/eruka-server/eruka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-zuul-client/eureka-zuul-client.iml" filepath="$PROJECT_DIR$/eureka-zuul-client/eureka-zuul-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yrzAdidas-prmo.iml" filepath="$PROJECT_DIR$/yrzAdidas-prmo.iml" />
+    </modules>
+  </component>
+</project>

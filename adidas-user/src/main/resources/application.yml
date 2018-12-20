@@ -1,0 +1,60 @@
+server:
+  port: 8763
+#  context-path: /member
+#security:
+#  oauth2:
+#    resource:
+#      ####从认证授权中心上验证token
+#      tokenInfoUri: http://localhost:9999/oauth/check_token
+#      preferTokenInfo: true
+#    client:
+#      accessTokenUri: http://localhost:9999/oauth/token
+#      userAuthorizationUri: http://localhost:9999/oauth/authorize
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+spring:
+  application:
+    name: adidas-user
+
+  redis:
+    host: localhost
+    password:
+    port: 6379
+  #数据库连接信息
+  datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/test
+        username: root
+        password:
+        # 使用druid数据源
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+
+#  activemq:
+#     broker-url: tcp://localhost:61616
+#     in-memory: true
+#     user: admin
+#     password: admin
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+

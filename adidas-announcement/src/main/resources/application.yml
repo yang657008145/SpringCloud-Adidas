@@ -1,0 +1,43 @@
+server:
+  port: 8768
+#  context-path: /member
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+spring:
+  application:
+    name: adidas-announcement
+  redis:
+    host: localhost
+    password:
+    port: 6379
+  #数据库连接信息
+  datasource:
+        name: test
+        url: jdbc:mysql://127.0.0.1:3306/test
+        username: root
+        password:
+
+#txmanager地址
+tm:
+  manager:
+    url: http://127.0.0.1:7000/tx/manager/
+
+# log config
+logging:
+   config: classpath:logback.xml
+
+  # xxl-job
+  ### xxl-job admin address list, such as "http://address" or "http://address01,http://address02"
+xxl:
+  job:
+   admin:
+     addresses: http://127.0.0.1:8080
+   executor:
+      appname: xxl-job-yrz
+      ip:
+      port: 8888
+      logpath: /data/applogs/xxl-job/jobhandler/
+
+   accessToken:
